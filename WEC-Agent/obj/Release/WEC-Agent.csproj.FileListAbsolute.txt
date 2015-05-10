@@ -1,15 +1,6 @@
-C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\IPC-TCP2\bin\Release\IPC-TCP2.exe
-C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\IPC-TCP2\bin\Release\IPC-TCP2.pdb
-C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\IPC-TCP2\bin\Release\Gma.UserActivityMonitor.dll
-C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\IPC-TCP2\obj\Release\WEC-Agent.csprojResolveAssemblyReference.cache
-C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\IPC-TCP2\obj\Release\IPC_TCP2.Properties.Resources.resources
-C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\IPC-TCP2\obj\Release\WEC-Agent.csproj.GenerateResource.Cache
-C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\IPC-TCP2\obj\Release\IPC-TCP2.exe
-C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\IPC-TCP2\obj\Release\IPC-TCP2.pdb
 C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\WEC-Agent\bin\Release\WEC-Agent.exe
 C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\WEC-Agent\bin\Release\WEC-Agent.pdb
 C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\WEC-Agent\bin\Release\Gma.UserActivityMonitor.dll
-C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\WEC-Agent\obj\Release\WEC-Agent.csprojResolveAssemblyReference.cache
 C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\WEC-Agent\obj\Release\Agent.Properties.Resources.resources
 C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\WEC-Agent\obj\Release\WEC-Agent.csproj.GenerateResource.Cache
 C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\WEC-Agent\obj\Release\WEC-Agent.exe

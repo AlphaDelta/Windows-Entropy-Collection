@@ -1,7 +1,0 @@
-C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\WEC-Agent\bin\Release\WEC-Agent.exe
-C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\WEC-Agent\bin\Release\WEC-Agent.pdb
-C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\WEC-Agent\bin\Release\Gma.UserActivityMonitor.dll
-C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\WEC-Agent\obj\Release\Agent.Properties.Resources.resources
-C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\WEC-Agent\obj\Release\WEC-Agent.csproj.GenerateResource.Cache
-C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\WEC-Agent\obj\Release\WEC-Agent.exe
-C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\WEC-Agent\obj\Release\WEC-Agent.pdb

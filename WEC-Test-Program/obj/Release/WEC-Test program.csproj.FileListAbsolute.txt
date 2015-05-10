@@ -1,0 +1,7 @@
+C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\Client\bin\Release\TestProgram.exe
+C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\Client\bin\Release\TestProgram.pdb
+C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\Client\obj\Release\WEC-Test program.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\Client\obj\Release\TestProgram.exe
+C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\Client\obj\Release\TestProgram.pdb
+C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\WEC-Test-Program\obj\Release\TestProgram.exe
+C:\Users\Administrator.AUD122024G\Git\Windows-Entropy-Collection\WEC-Test-Program\obj\Release\TestProgram.pdb

@@ -13,6 +13,7 @@ namespace Agent
     static class Program
     {
         static volatile bool weregoingdownbuddy = false, itsbeenapleasuretoprocesswithyou = false, tumbling = false;
+        static volatile int total = 0, entropyindex = 0, bindex = 0, tumble = 0;
 
         [STAThread]
         static void Main()
@@ -26,7 +27,6 @@ namespace Agent
             catch { MessageBox.Show("The port 65535 cannot be binded to, make sure it is open and another process is not already using it.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
 
             bool free = false;
-            int total = 0, entropyindex = 0, tumble = 0;
             
             List<int> Intermediate = new List<int>(256);
             int[] Proc = new int[0];
@@ -116,6 +116,7 @@ namespace Agent
                     tumbling = false;
 
                     entropyindex = 0;
+                    bindex = 0;
                     tumble++;
                     for (int i = 0; i < 10; i++) { if (weregoingdownbuddy) break; Thread.Sleep(100); } //Check for exit every 100ms for 10 seconds until the next tumble
                 }
@@ -146,11 +147,16 @@ namespace Agent
 
                                 if (wait > 0) //If we havent timed out release the requested amount of entropy, if that amount of entropy isn't available just release whatever we have
                                 {
-                                    int num = (int)st.ReadByte() + entropyindex;
-                                    for (int i = entropyindex; i < num && i < ISAAC.SIZE; i++)
+                                    int num = (int)st.ReadByte();
+                                    int max = ISAAC.SIZE * 4;
+                                    for (int i = 0; i < num && i < max; i++)
                                     {
-                                        st.WriteByte((byte)(isaac.rsl[i] % 256));
-                                        entropyindex++;
+                                        byte b = 0;
+                                        if (bindex == 0) { b = (byte)((isaac.rsl[entropyindex] & 0xFF000000) >> 24); bindex++; }
+                                        else if (bindex == 1) { b = (byte)((isaac.rsl[entropyindex] & 0x00FF0000) >> 16); bindex++; }
+                                        else if (bindex == 2) { b = (byte)((isaac.rsl[entropyindex] & 0x0000FF00) >> 8); bindex++; }
+                                        else if (bindex == 3) { b = (byte)((isaac.rsl[entropyindex] & 0x000000FF)); bindex = 0; entropyindex++; }
+                                        st.WriteByte(b);
                                     }
                                 }
                             }
